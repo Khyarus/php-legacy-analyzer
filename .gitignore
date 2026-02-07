@@ -1,5 +1,49 @@
-out
-dist
-node_modules
-.vscode-test/
-*.vsix
+# =========================
+# Composer / PHP
+# =========================
+vendor/
+composer.lock
+
+# Cache / logs
+*.log
+.cache/
+.tmp/
+
+# =========================
+# PHP tools
+# =========================
+.phpunit.result.cache
+phpunit.xml
+phpunit.xml.dist
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+*.code-workspace
+
+# =========================
+# Node (caso use depois p/ extensão)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# OS / editor lixo
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Build / dist (se gerar)
+# =========================
+dist/
+out/
+
+# =========================
+# Coverage
+# =========================
+coverage/
